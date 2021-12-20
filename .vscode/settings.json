@@ -1,0 +1,17 @@
+{
+  "editor.tabSize": 2, //tab 两格
+  // "powermode.enabled": true, //必须添加，效果开启
+  // "powermode.presets": "particles", //爆炸效果
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true, // eslint保存格式化（所有支持的语言）
+  "prettier.eslintIntegration": true, // 让prettier遵循eslint格式美化
+  "editor.defaultFormatter": "esbenp.prettier-vscode", //设置prettier为默认格式化工具
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" //设置prettier为默认格式化工具
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
